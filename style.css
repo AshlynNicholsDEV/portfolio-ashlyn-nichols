@@ -1,0 +1,80 @@
+/*IMPORTS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+/*FONTFACES*/
+
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: 100%;
+  font-display: swap;
+  unicode-range:
+    U + 0460 -052F,
+    U + 1C80 -1C8A,
+    U + 20B4,
+    U + 2DE0 -2DFF,
+    U + A640-A69F,
+    U + FE2E-FE2F;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*ID SELECTORS*/
+#landing-page {
+  min-height: 100vh;
+}
+
+#personal-logo {
+  height: 50px;
+  width: 50px;
+  filter: invert(1);
+}
+
+/*BODY*/
+
+body {
+  display: block;
+}
+
+section {
+  background-color: rgb(245, 245, 245);
+  transition: all 0.3s ease;
+}
+
+/*NAV BAR*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100px;
+  unicode-bidi: isolate;
+}
+
+nav,
+.scroll,
+.header {
+  opacity: 1;
+  visibility: visible;
+  transition: all 600ms 800ms;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  unicode-bidi: isolate;
+}
