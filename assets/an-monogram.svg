@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64">
+  <title>Angular AN monogram</title>
+  <rect width="64" height="64" rx="5" fill="#fafafa"/>
+  <g fill="#000">
+    <path fill-rule="evenodd" d="M6 50 L20 14 H29 L43 50 H33 L30 41 H18 L15 50 Z M21 33 H27 L24 24 Z"/>
+    <path d="M33 50 V14 H41 L50 33 V14 H58 V50 H50 L41 31 V50 Z"/>
+  </g>
+</svg>
